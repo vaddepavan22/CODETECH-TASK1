@@ -1,0 +1,18 @@
+/* here input taken from the user, select the operator for user requirement and to perform the various operations like(addition,subtraction,multification,devision */
+num1=int(input("enter the first number :"))
+num2=int(input("enter the second number :"))
+op=input("enter the operator :")
+if op=="+":
+    result=num1+num2
+    print("the addition of two numbers is :",result)
+elif op=="-":
+    result=num1-num2
+    print("the subtraction of two numbers is :",result)
+elif op=="*":
+    result=num1*num2
+    print("the multification of two numbers is :",result)
+elif op=="/":
+    result=num1/num2
+    print("the devision  of two numbers is :",result)
+else:
+    print(invaild)
